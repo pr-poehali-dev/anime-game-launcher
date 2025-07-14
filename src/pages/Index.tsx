@@ -29,7 +29,7 @@ const Index = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url(/img/c70d971c-162e-497d-a00a-73969f31550a.jpg)`
+          backgroundImage: `url(/img/41c7ce9e-613d-4ce8-a926-f1c97f009a0d.jpg)`
         }}
       />
       
@@ -54,12 +54,14 @@ const Index = () => {
       
       {/* Explosion Effect */}
       {isExploded && (
-        <div 
-          className="fixed inset-0 z-50 bg-cover bg-center bg-no-repeat animate-scale-in"
-          style={{
-            backgroundImage: `url(/img/8d18a675-11ec-4ab6-9740-b2a88b230356.jpg)`
-          }}
-        />
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black animate-scale-in">
+          <div 
+            className="w-full h-full bg-cover bg-center bg-no-repeat"
+            style={{
+              backgroundImage: `url(/img/8f591624-eaf1-4a4e-ba03-b403d037cf0b.jpg)`
+            }}
+          />
+        </div>
       )}
     </div>
   );
